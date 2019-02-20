@@ -1,3 +1,5 @@
+pragma solidity ^0.4.18;
+
 contract SimpleLottery {
     uint public constant TICKET_PRICE = 1e16; // 0.01 ether
 

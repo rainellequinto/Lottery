@@ -1,3 +1,5 @@
+pragma solidity ^0.4.18;
+
 contract RNGLottery {
     uint constant public TICKET_PRICE = 1e16; //ether payment is 0.01 ether
 
