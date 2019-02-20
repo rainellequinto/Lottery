@@ -63,3 +63,8 @@ Input value for CreateCommit is: **"(address)", (guess number)**.
 
 Design flow:
 ![Image](RNGLottery.jpg "RNG")
+
+##Powerball
+
+Design flow:
+![Image](PowerballLottery.jpg "Powerball")
