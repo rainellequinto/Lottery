@@ -1,5 +1,5 @@
 Hyperledger Lottery Game with Design Flow
-========
+
 
 ## Simple Lottery
 
@@ -19,7 +19,7 @@ How the Simple Lottery contract works:
 * Viewing the winner wil be the winner button. It will give a address of the winner.
 * Click claim for the claiming the prize.
 
-Design flow:
+**Design flow:**
 ![Image](simple_lottery.jpg "SimpleLottery")
 
 ## Recurring Lottery
@@ -38,7 +38,7 @@ How the Simple Lottery contract works:
 * Afer buying tickets in 5 or any number you put in the create tab, you can actually draw the winner. Put the round number upon clicking the drawWinner button.
 * If you wanted to delete the finish round, just input the round number you wanted to delete and click the deleteRound.
 
-Design Flow:
+**Design flow:**
 ![Image](RecurringLottery.jpg "Recurring")
 
 ## RNG Lottery
@@ -61,10 +61,23 @@ Input value for CreateCommit is: **"(address)", (guess number)**.
 * Click the winner button to see what address is the winner;
 * Change the address above according to what address is the winner, then click the withdraw function to claim the price.
 
-Design flow:
+**Design flow:**
 ![Image](RNGLottery.jpg "RNG")
 
 ## Powerball
 
-Design flow:
+Powerball is very famous lottery game in the world. It is like the 6/58 lottery game in the philippines. It is a game of guessing numbers. If the participants match the generated numbers, it will win some of the ticket price according to the numbers that match. The maximum number is one(1) to sixty-nine(69). Participants will choose only six(6) numbers.
+
+How the Simple Lottery contract works:
+* Go to the remix.ethereum.org and copy the contract.
+* Copy the Powerball.sol in the remix.
+* Click the Run tab.
+* Click the create tab. 
+* Buy tickets in this format: [[<numbers>]]. Ex: [[1,2,3,4,5,6]].
+* Change the address to buy another ticket. Keep on buying the tickets until there is the error. Error occurs when the duration is in limit.
+* For drawing numbers, put a value in the one(1) for the round number.
+* To view the winning numbers, put a value of one in the winningNumbersfor function button. To see what is the winning numbers.
+* If there is a match in your guess number, claim the prize by the function claim and put one(1) for the round.
+
+**Design flow:**
 ![Image](PowerballLottery.jpg "Powerball")
