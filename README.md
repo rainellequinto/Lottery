@@ -1,4 +1,4 @@
-Hyperledger Lottery Game with Design Flow
+Ethereum Lottery Game with Design Flow
 =========
 
 ## Simple Lottery
@@ -81,3 +81,22 @@ How the Simple Lottery contract works:
 
 **Design flow:**
 ![Image](PowerballLottery.jpg "Powerball")
+
+Hyperledger TO-BE Lottery Game Design Flow
+=========
+
+**Design flow:**
+![Image](lottery_hyperledger.jpg "LotteryHyperledger")
+
+
+Ethereum Lottery Game Fullstack Design Flow
+=========
+
+**Design flow:**
+![Image](FullStackEthereum.jpg "FullStackEthereum")
+
+Hyperledger Lottery Game Fullstack Design Flow
+=========
+
+**Design flow:**
+![Image](FullStackHyperledger.jpg "FullStackHyperledger")
